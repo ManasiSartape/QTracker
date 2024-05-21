@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.table{
+    height: 300px;
+    width: 90%;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.head{
+    color: black;
+    font-family: arial Black;
+}
+

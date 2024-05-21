@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: opx;
+    box-sizing: border-box;
+}
+.main-container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    background-image: url(https://cdn.pixabay.com/video/2022/08/23/128875-742339684_tiny.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.login-form{
+    height: 500px;
+    width: 500px;
+    padding: 30px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    position: absolute;
+    top: 25%;
+    right: 950px;
+    border-radius: 50px;
+    box-shadow: -4px -4px 20px whitesmoke;
+}
+
+input{
+    width: 90%;
+    margin-top: 20px;
+    height: 60px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 3px solid white;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.lgn{
+   font-family: arial Black;
+   color: skyblue; 
+}
+
+.lgnbtn{
+    border: none;
+    background-color:royalblue;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: arial Black;
+}
